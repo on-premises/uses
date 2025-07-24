@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   docker:
-    uses: on-premises/workflows/.github/workflows/use-docker.yml@main
+    uses: on-premises/uses/.github/workflows/use-docker.yml@main
     permissions:
       contents: read
       packages: write
